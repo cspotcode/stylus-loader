@@ -1,3 +1,18 @@
+# stylus-nocache-loader
+
+## *This is a fork*
+This is a fork of the original stylus-loader that adds an option to disable or enable caching, due to a bug: [shama/stylus-loader#44](https://github.com/shama/stylus-loader/issues/44)
+
+I am using this version until the original stylus-loader is patched.
+
+    $ npm install stylus-nocache-loader
+
+And in your webpack config or require() calls, refer to `stylus-nocache` instead of `stylus`.
+
+Original README below:
+
+----
+
 # stylus-loader
 A [stylus](http://learnboost.github.io/stylus/) loader for [webpack](https://github.com/webpack/webpack).
 
